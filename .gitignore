@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build
+dist/
+build/
+target/
+
+# Tauri
+src-tauri/target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+*.egg
+
+# Database
+*.db
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.vercel
