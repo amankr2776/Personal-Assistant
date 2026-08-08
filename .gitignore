@@ -1,0 +1,35 @@
+node_modules/
+dist/
+build/
+target/
+src-tauri/target/
+__pycache__/
+*.pyc
+*.db
+*.sqlite3
+.env
+.env.local
+.env*.local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.cache/
+.vercel/
+# SECURITY: Never commit secrets, credentials, keystores
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.cert
+*.crt
+secrets/
+.credentials
+# SECURITY: Never commit database files with user data
+*.db-journal
+*.db-wal
+# SECURITY: Never commit service account keys
+service-account*.json
+firebase-admin*.json
+gcloud-service*.json
